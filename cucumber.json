@@ -1,0 +1,4051 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "001-web-smk-valorant-se-create-tournament-control;001.1-web-smk-valorant-se-create-tournament-control",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "001.1 WEB SMK Valorant SE Create Tournament Control",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 237028209
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "\"login\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1232981829
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "\"USER_ACCOUNT_10\" datasını kullanarak giris yapar",
+            "match": {
+              "location": "tests/steps/HomePageSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4254407207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "\"createTournament\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 758372371
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Create Tournament\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78321539
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "\"Name\" alanina \"Test Tournament\" girilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:189"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161027833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "\"Game\" listesi uzerinden \"VALORANT VALORANT\" degeri secilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:273"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 228766790
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "\"Hosted By\" listesi uzerinden \"TESTLAND TESTLAND\" degeri secilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:273"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159072999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "\"Players Per Team\" listesi uzerinden \"1v1\" degeri secilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:273"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120675121
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "\"SWITCH\" elementine \"Should this tournament be hidden in the tournament list?\" degeri ile tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111032874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "\"Create\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126890584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "\"Tournament Created.\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4363117375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "\"Test Tournament\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 222856664
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Sayfanin URLi \"Private\" temp dataya \"tournamentSettingsUrl\" olarak yazdirilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:353"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2037873
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19936166
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@valoSEcreateTournamentAllSmk",
+            "line": 1
+          },
+          {
+            "name": "@smoke1",
+            "line": 4
+          },
+          {
+            "name": "@valoSEcreateTournamentCreate",
+            "line": 4
+          },
+          {
+            "name": "@parent",
+            "line": 4
+          },
+          {
+            "name": "@valoSEcreateTournamentCreate",
+            "line": 4
+          },
+          {
+            "name": "@parent",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "001-web-smk-valorant-se-create-tournament-control;001.2-web-smk-valorant-se-schedule-and-brackets-tournament-control",
+        "keyword": "Scenario Outline",
+        "line": 90,
+        "name": "001.2 WEB SMK Valorant SE Schedule and Brackets Tournament Control",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 126473249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "\"login\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1212295581
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "\"USER_ACCOUNT_10\" datasını kullanarak giris yapar",
+            "match": {
+              "location": "tests/steps/HomePageSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4258094830
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "\"Temp Data\" icerisinden \"tournamentSettingsUrl\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 584839749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "\"Schedule & Bracket\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 230468918
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "\"Register Opens\" alanina \"0\" tarihi \"0\" saati \"0\" dakikasi girilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:233"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1435134582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "\"Register Closes\" alanina \"0\" tarihi \"0\" saati \"2\" dakikasi girilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:233"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 558165125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "\"Check-in Start Date and Time\" alanina \"0\" tarihi \"0\" saati \"2\" dakikasi girilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:233"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 535734251
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "\"Check-in Finish Date and Time\" alanina \"0\" tarihi \"0\" saati \"3\" dakikasi girilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:233"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 550684125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "\"Start Date and Time\" alanina \"0\" tarihi \"0\" saati \"4\" dakikasi girilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:233"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 531263583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "\"Save Changes\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131873957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "\"Tournament Information Updated\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 230922666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "\"CLOSE_NOTIFICATION_BUTTON\" elementi gorunurse tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1548521082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "\"Tournament Information Updated\" textinin gorunur olmadigi kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:345"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1856261082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "\"Brackets\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 301126832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "\"LIST\" elementine \"Elimination Format\" degeri ile tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108036123
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "\"Single Elimination\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51220249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "\"Double Elimination\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41064455
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "\"Save Changes\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114834873
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "\"Tournament Information Updated\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 228569416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "\"CLOSE_NOTIFICATION_BUTTON\" elementi gorunurse tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1546580415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "\"Tournament Information Updated\" textinin gorunur olmadigi kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:345"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1854830499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "\"Rounds\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 233690331
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "\"Slots\" listesi uzerinden \"2\" degeri secilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:273"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 156480041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "\"Slots\" listesi uzerinden \"4\" degeri secilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:273"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131178331
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "\"Substitute Team\" listesi uzerinden \"8\" degeri secilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:273"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134280749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "\"Substitute Team\" listesi uzerinden \"none\" degeri secilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:273"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130201998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "\"Round 1   \" alanina \"0\" tarihi \"0\" saati \"5\" dakikasi girilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:233"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 540692458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "\"TOURNAMENT_CREATE_GAMES_PLAY_WIN_1_INPUT\" listesi uzerinden \"BO3\" degeri secilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:273"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 135578039
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "\"Round 2  - ( FINAL ) \" alanina \"0\" tarihi \"0\" saati \"6\" dakikasi girilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:233"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 557684581
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "\"TOURNAMENT_CREATE_GAMES_PLAY_WIN_2_INPUT\" listesi uzerinden \"BO1\" degeri secilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:273"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126772330
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "\"Save Changes\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127883625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "\"Tournament Information Updated\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239086874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "\"CLOSE_NOTIFICATION_BUTTON\" elementi gorunurse tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1547900457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "\"Tournament Information Updated\" textinin gorunur olmadigi kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:345"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1863647542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "\"Game\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117031665
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "\"Team size\" listesi uzerinden \"2v2\" degeri secilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:273"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 313661707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "\"Team size\" listesi uzerinden \"1v1\" degeri secilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:273"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118648455
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "\"Save Changes\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124794750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "\"Tournament Information Updated\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 228546457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "\"CLOSE_NOTIFICATION_BUTTON\" elementi gorunurse tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1546358083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "\"Tournament Information Updated\" textinin gorunur olmadigi kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:345"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1857549290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 74,
+            "name": "\"Publish Tournament\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129816957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 75,
+            "name": "\"Tournament published\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 245729456
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "\"CLOSE_NOTIFICATION_BUTTON\" elementi gorunurse tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1547093499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "\"Tournament published\" textinin gorunur olmadigi kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:345"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1855041958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "Yuklenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1750496832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "\"Go to the tournament page\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42874790
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "\"Go to the tournament page\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103152082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "Yuklenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1733066915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "Sayfanin URLi \"Private\" temp dataya \"tournamentUrl\" olarak yazdirilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:353"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2696458
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26061916
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@valoSEcreateTournamentAllSmk",
+            "line": 1
+          },
+          {
+            "name": "@smoke1",
+            "line": 24
+          },
+          {
+            "name": "@valoSEcreateTournamentScheduleAndBrackets",
+            "line": 24
+          },
+          {
+            "name": "@parent",
+            "line": 24
+          },
+          {
+            "name": "@child",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "001-web-smk-valorant-se-create-tournament-control;001.3-web-smk-valorant-se-create-tournament-teams-join-test1valo-control",
+        "keyword": "Scenario Outline",
+        "line": 111,
+        "name": "001.3 WEB SMK Valorant SE Create Tournament Teams Join TEST1VALO Control",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 124111041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 94,
+            "name": "\"login\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1324539872
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 95,
+            "name": "\"USER_ACCOUNT_1\" datasını kullanarak giris yapar",
+            "match": {
+              "location": "tests/steps/HomePageSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2902658707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 96,
+            "name": "\"Temp Data\" icerisinden \"tournamentUrl\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 648670873
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 97,
+            "name": "\"TOURNAMENT_JOIN_BUTTON\" elementine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154478874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 98,
+            "name": "\"Select Team\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44590125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 99,
+            "name": "\"TEST1VALO\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59199915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 100,
+            "name": "\"TEST1VALO\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103177915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 101,
+            "name": "\"Select Members\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97864415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 102,
+            "name": "\"JOIN_TOURNAMENT_NICKNAME\" elementine \"test1\" degeri ile ulasilir ve goruntulendigi kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:141"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50533040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 103,
+            "name": "\"JOIN_TOURNAMENT_NICKNAME\" elementine \"test1\" degeri ile tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118975207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 104,
+            "name": "\"TOURNAMENT_MODAL_JOIN_BUTTON\" elementine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116356415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 105,
+            "name": "\"CLOSE_NOTIFICATION_BUTTON\" elementi gorunurse tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1553543622
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 106,
+            "name": "\"Congratulations, you have successfully participated in the tournament.\" textinin gorunur olmadigi kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:345"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3851755041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 107,
+            "name": "\"TOURNAMENT_LEAVE_BUTTON\" elementi goruntulenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:393"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67865040
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23208750
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@valoSEcreateTournamentAllSmk",
+            "line": 1
+          },
+          {
+            "name": "@smoke1",
+            "line": 92
+          },
+          {
+            "name": "@valoSEcreateTournamentTeamsJoin",
+            "line": 92
+          },
+          {
+            "name": "@parent",
+            "line": 92
+          },
+          {
+            "name": "@child",
+            "line": 92
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "001-web-smk-valorant-se-create-tournament-control;001.3-web-smk-valorant-se-create-tournament-teams-join-test2valo-control",
+        "keyword": "Scenario Outline",
+        "line": 112,
+        "name": "001.3 WEB SMK Valorant SE Create Tournament Teams Join TEST2VALO Control",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 129332291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 94,
+            "name": "\"login\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1362620043
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 95,
+            "name": "\"USER_ACCOUNT_2\" datasını kullanarak giris yapar",
+            "match": {
+              "location": "tests/steps/HomePageSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2972366081
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 96,
+            "name": "\"Temp Data\" icerisinden \"tournamentUrl\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 762012291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 97,
+            "name": "\"TOURNAMENT_JOIN_BUTTON\" elementine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170516165
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 98,
+            "name": "\"Select Team\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54205123
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 99,
+            "name": "\"TEST2VALO\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38377374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 100,
+            "name": "\"TEST2VALO\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80676373
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 101,
+            "name": "\"Select Members\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35407917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 102,
+            "name": "\"JOIN_TOURNAMENT_NICKNAME\" elementine \"test2\" degeri ile ulasilir ve goruntulendigi kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:141"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79752915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 103,
+            "name": "\"JOIN_TOURNAMENT_NICKNAME\" elementine \"test2\" degeri ile tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100943666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 104,
+            "name": "\"TOURNAMENT_MODAL_JOIN_BUTTON\" elementine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96375999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 105,
+            "name": "\"CLOSE_NOTIFICATION_BUTTON\" elementi gorunurse tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1540313121
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 106,
+            "name": "\"Congratulations, you have successfully participated in the tournament.\" textinin gorunur olmadigi kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:345"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4356664124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 107,
+            "name": "\"TOURNAMENT_LEAVE_BUTTON\" elementi goruntulenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:393"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72618166
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23519708
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@valoSEcreateTournamentAllSmk",
+            "line": 1
+          },
+          {
+            "name": "@smoke1",
+            "line": 92
+          },
+          {
+            "name": "@valoSEcreateTournamentTeamsJoin",
+            "line": 92
+          },
+          {
+            "name": "@parent",
+            "line": 92
+          },
+          {
+            "name": "@child",
+            "line": 92
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "001-web-smk-valorant-se-create-tournament-control;001.4-web-smk-valorant-se-create-tournament-teams-check-in-user_account_1-control",
+        "keyword": "Scenario Outline",
+        "line": 127,
+        "name": "001.4 WEB SMK Valorant SE Create Tournament Teams Check-In USER_ACCOUNT_1 Control",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 124702042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 116,
+            "name": "\"login\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1249240833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 117,
+            "name": "\"USER_ACCOUNT_1\" datasını kullanarak giris yapar",
+            "match": {
+              "location": "tests/steps/HomePageSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2702872959
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 118,
+            "name": "\"Temp Data\" icerisinden \"tournamentUrl\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 931504667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 119,
+            "name": "\"TOURNAMENT_PAGE_REGISTRATION_CHECK\" elementi goruntulenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:393"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39218946288
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 120,
+            "name": "\"TOURNAMENT_CHECK_IN_BUTTON\" elementine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132312208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 121,
+            "name": "\"CHECK IN TOURNAMENT\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 241356538
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 122,
+            "name": "\"CLOSE_NOTIFICATION_BUTTON\" elementi gorunurse tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1552313916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 123,
+            "name": "\"CHECK IN TOURNAMENT\" textinin gorunur olmadigi kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:345"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3850037955
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24135041
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@valoSEcreateTournamentAllSmk",
+            "line": 1
+          },
+          {
+            "name": "@smoke1",
+            "line": 114
+          },
+          {
+            "name": "@valoSEcreateTournamentTeamsCheckIn",
+            "line": 114
+          },
+          {
+            "name": "@parent",
+            "line": 114
+          },
+          {
+            "name": "@child",
+            "line": 114
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "001-web-smk-valorant-se-create-tournament-control;001.4-web-smk-valorant-se-create-tournament-teams-check-in-user_account_2-control",
+        "keyword": "Scenario Outline",
+        "line": 128,
+        "name": "001.4 WEB SMK Valorant SE Create Tournament Teams Check-In USER_ACCOUNT_2 Control",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 129762583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 116,
+            "name": "\"login\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2962256958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 117,
+            "name": "\"USER_ACCOUNT_2\" datasını kullanarak giris yapar",
+            "match": {
+              "location": "tests/steps/HomePageSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2714998374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 118,
+            "name": "\"Temp Data\" icerisinden \"tournamentUrl\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 937415247
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 119,
+            "name": "\"TOURNAMENT_PAGE_REGISTRATION_CHECK\" elementi goruntulenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:393"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41593914
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 120,
+            "name": "\"TOURNAMENT_CHECK_IN_BUTTON\" elementine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118092540
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 121,
+            "name": "\"CHECK IN TOURNAMENT\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235255831
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 122,
+            "name": "\"CLOSE_NOTIFICATION_BUTTON\" elementi gorunurse tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1586929539
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 123,
+            "name": "\"CHECK IN TOURNAMENT\" textinin gorunur olmadigi kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:345"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3871025749
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19801000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@valoSEcreateTournamentAllSmk",
+            "line": 1
+          },
+          {
+            "name": "@smoke1",
+            "line": 114
+          },
+          {
+            "name": "@valoSEcreateTournamentTeamsCheckIn",
+            "line": 114
+          },
+          {
+            "name": "@parent",
+            "line": 114
+          },
+          {
+            "name": "@child",
+            "line": 114
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "001-web-smk-valorant-se-create-tournament-control;001.5-web-smk-valorant-se-create-tournament-admin-seeding",
+        "keyword": "Scenario Outline",
+        "line": 152,
+        "name": "001.5 WEB SMK Valorant SE Create Tournament Admin Seeding",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 124730958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 132,
+            "name": "\"login\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1945213458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 133,
+            "name": "\"USER_ACCOUNT_10\" datasını kullanarak giris yapar",
+            "match": {
+              "location": "tests/steps/HomePageSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4268950207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 134,
+            "name": "\"Temp Data\" icerisinden \"tournamentUrl\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 881868083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 135,
+            "name": "\"TOURNAMENT_PAGE_CHECK_IN_CHECK\" elementi goruntulenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:393"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33249271040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 136,
+            "name": "\"TOURNAMENT_PAGE_SETTINGS\" elementine tikla ve acilan sekmeye gec",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 537823123
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 137,
+            "name": "Onceki tarayici sekmesini kapat",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 452100625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 138,
+            "name": "\"Seeding\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 192597415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 139,
+            "name": "\"Automatic\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 286581040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 140,
+            "name": "\"Semi-Automatic\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49302831
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 141,
+            "name": "\"Automatic\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159900332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 142,
+            "name": "\"After this process, the seed stage cannot be undone\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64730499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 143,
+            "name": "\"Continue\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139197539
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 144,
+            "name": "\"The seeding process is completed.\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1472104165
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 145,
+            "name": "\"Bracket\" textine tikla ve acilan sekmeye gec",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 566978623
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 146,
+            "name": "Onceki tarayici sekmesini kapat",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 510144124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 147,
+            "name": "Yuklenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1781487082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 148,
+            "name": "\"Final\" bracket takimlari ve durumlari \"Private\" temp dataya tamamlanma durumlari ile kayit edilir",
+            "match": {
+              "location": "tests/steps/BracketSteps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76968164
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18248791
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@valoSEcreateTournamentAllSmk",
+            "line": 1
+          },
+          {
+            "name": "@smoke1",
+            "line": 130
+          },
+          {
+            "name": "@valoSEcreateTournamentTeamsSeeding",
+            "line": 130
+          },
+          {
+            "name": "@parent",
+            "line": 130
+          },
+          {
+            "name": "@child",
+            "line": 130
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "001-web-smk-valorant-se-create-tournament-control;001.6-web-smk-valorant-se-create-tournament-encounter",
+        "keyword": "Scenario Outline",
+        "line": 342,
+        "name": "001.6 WEB SMK Valorant SE Create Tournament Encounter",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 390714916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 157,
+            "name": "1 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 871332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 158,
+            "name": "\"login\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1318801456
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 159,
+            "name": "\"Temp Data\" icerisinden bracket \"cift\" icindeki \"1\" takimla giris yap",
+            "match": {
+              "location": "tests/steps/BracketSteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3036983455
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 160,
+            "name": "2 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 264831
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 161,
+            "name": "\"login\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1420413124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 162,
+            "name": "\"Temp Data\" icerisinden bracket \"cift\" icindeki \"2\" takimla giris yap",
+            "match": {
+              "location": "tests/steps/BracketSteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2769819582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 163,
+            "name": "3 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 164,
+            "name": "\"login\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1425172500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 165,
+            "name": "\"USER_ACCOUNT_10\" datasını kullanarak giris yapar",
+            "match": {
+              "location": "tests/steps/HomePageSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4271554749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 169,
+            "name": "1 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 145916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 170,
+            "name": "\"ACTIVE_ENCOUNTER_BUTTON\" elementi goruntulenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:393"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70041541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 171,
+            "name": "\"ACTIVE_ENCOUNTER_BUTTON\" elementi goruntulenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:393"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52689248
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 172,
+            "name": "\"ACTIVE_ENCOUNTER_BUTTON\" elementine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147723956
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 173,
+            "name": "2 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 428332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 174,
+            "name": "\"ACTIVE_ENCOUNTER_BUTTON\" elementi goruntulenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:393"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61131206
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 175,
+            "name": "\"ACTIVE_ENCOUNTER_BUTTON\" elementi goruntulenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:393"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159091665
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 176,
+            "name": "\"ACTIVE_ENCOUNTER_BUTTON\" elementine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163448373
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 177,
+            "name": "5 saniye beklenir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5011152290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 178,
+            "name": "Sayfanin URLi \"Private\" temp dataya \"encounterUrl\" olarak yazdirilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:353"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 764914
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 182,
+            "name": "1 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 183,
+            "name": "\"GOTO_GAME\" elementine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 499898706
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 184,
+            "name": "\"💪 We’re Ready2 Match\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32728329625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 185,
+            "name": "\"💪 We’re Ready2 Match\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 166414457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 186,
+            "name": "\"💪 We’re Ready2 Match\" textinin gorunur olmadigi kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:345"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 845584333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 187,
+            "name": "2 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 196999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 188,
+            "name": "\"GOTO_GAME\" elementine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 566736958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 189,
+            "name": "\"💪 We’re Ready2 Match\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 744160749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 190,
+            "name": "\"💪 We’re Ready2 Match\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159454915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 191,
+            "name": "\"💪 We’re Ready2 Match\" textinin gorunur olmadigi kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:345"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 884148582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 194,
+            "name": "1 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 142209
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 195,
+            "name": "\"ENCOUNTER_BLUE_TEAM_TRICODE\" elementinin degeri \"Private\" temp dataya \"encounterBlueTeamTricode\" olarak yazdirilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:361"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95012498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 196,
+            "name": "\"ENCOUNTER_RED_TEAM_TRICODE\" elementinin degeri \"Private\" temp dataya \"encounterRedTeamTricode\" olarak yazdirilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:361"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92220664
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 197,
+            "name": "\"ENCOUNTER_HERO_ACTIONS_DESCRIPTION\" elementinin textinin \"Blue Team turn for ban map\" olmasini bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:325"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5126617249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 198,
+            "name": "\"Ascent\" haritasi banlanir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348276415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 199,
+            "name": "Yuklenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1838310498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 200,
+            "name": "\"Ascent\" haritasinin durumu \"banned\" olarak kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58339414
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Ascent"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 201,
+            "name": "\"Blue\" takiminin banladigi haritalar kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53674247
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 203,
+            "name": "2 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115456
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 204,
+            "name": "\"Ascent\" haritasinin durumu \"banned\" olarak kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52965082
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Ascent"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 205,
+            "name": "\"Blue\" takiminin banladigi haritalar kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80600498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 209,
+            "name": "\"ENCOUNTER_HERO_ACTIONS_DESCRIPTION\" elementinin textinin \"Red Team turn for ban map\" olmasini bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:325"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15922667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 210,
+            "name": "\"Bind\" haritasi banlanir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 358446124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 211,
+            "name": "Yuklenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1828664250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 212,
+            "name": "\"Bind\" haritasinin durumu \"banned\" olarak kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56733456
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Bind"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 213,
+            "name": "\"Red\" takiminin banladigi haritalar kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54690789
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 215,
+            "name": "1 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 216,
+            "name": "Yuklenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1823241917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 217,
+            "name": "\"Bind\" haritasinin durumu \"banned\" olarak kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58432415
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Bind"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 218,
+            "name": "\"Red\" takiminin banladigi haritalar kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51998291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 222,
+            "name": "1 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 223,
+            "name": "\"ENCOUNTER_HERO_ACTIONS_DESCRIPTION\" elementinin textinin \"Blue Team turn for ban map\" olmasini bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:325"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14753456
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 224,
+            "name": "\"Breeze\" haritasi banlanir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 331927414
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 225,
+            "name": "Yuklenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1824944582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 226,
+            "name": "\"Breeze\" haritasinin durumu \"banned\" olarak kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58684249
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Breeze"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 227,
+            "name": "\"Blue\" takiminin banladigi haritalar kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53451541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 229,
+            "name": "2 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 230,
+            "name": "\"Breeze\" haritasinin durumu \"banned\" olarak kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46549539
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Breeze"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 231,
+            "name": "\"Blue\" takiminin banladigi haritalar kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54738542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 235,
+            "name": "2 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109039
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 236,
+            "name": "\"ENCOUNTER_HERO_ACTIONS_DESCRIPTION\" elementinin textinin \"Red Team turn for ban map\" olmasini bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:325"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15958498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 237,
+            "name": "\"Haven\" haritasi banlanir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 345110625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 238,
+            "name": "Yuklenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1841019082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 239,
+            "name": "\"Haven\" haritasinin durumu \"banned\" olarak kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55509458
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Bind"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Haven"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 240,
+            "name": "\"Red\" takiminin banladigi haritalar kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59775290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 243,
+            "name": "1 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108997
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 244,
+            "name": "\"Haven\" haritasinin durumu \"banned\" olarak kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53082791
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Bind"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Haven"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 245,
+            "name": "\"Red\" takiminin banladigi haritalar kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66299123
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 250,
+            "name": "1 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 251,
+            "name": "\"ENCOUNTER_HERO_ACTIONS_DESCRIPTION\" elementinin textinin \"Blue Team turn for ban map\" olmasini bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:325"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18114166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 252,
+            "name": "\"Lotus\" haritasi banlanir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 341480792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 253,
+            "name": "Yuklenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1815821582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 254,
+            "name": "\"Lotus\" haritasinin durumu \"banned\" olarak kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57592416
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Ascent"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Lotus"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 255,
+            "name": "\"Blue\" takiminin banladigi haritalar kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62238166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 258,
+            "name": "2 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126789
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 259,
+            "name": "Yuklenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1842236374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 260,
+            "name": "\"Lotus\" haritasinin durumu \"banned\" olarak kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57354581
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Ascent"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Lotus"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 261,
+            "name": "\"Blue\" takiminin banladigi haritalar kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60105373
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 266,
+            "name": "\"ENCOUNTER_HERO_ACTIONS_DESCRIPTION\" elementinin textinin \"Red Team turn for ban map\" olmasini bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:325"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15033749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 267,
+            "name": "\"Split\" haritasi banlanir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 324814249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 268,
+            "name": "Yuklenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1860827081
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 269,
+            "name": "\"Split\" haritasinin durumu \"banned\" olarak kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62580458
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Bind"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Haven"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Split"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 270,
+            "name": "\"Red\" takiminin banladigi haritalar kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66778040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 274,
+            "name": "1 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 275,
+            "name": "\"Split\" haritasinin durumu \"banned\" olarak kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48059455
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Bind"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Haven"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Split"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 276,
+            "name": "\"Red\" takiminin banladigi haritalar kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71603418
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 282,
+            "name": "\"ENCOUNTER_HERO_ACTIONS_DESCRIPTION\" elementinin textinin \"Blue Team turn for choose side\" olmasini bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:325"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17224124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 283,
+            "name": "\"Attacker\" tarafi secilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65916665
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 286,
+            "name": "1 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 287,
+            "name": "\"Harita seçimi tamamlandı\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 845053748
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 288,
+            "name": "Yuklenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1801151708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 289,
+            "name": "Lobi detaylarinda \"Sunset\" haritasinin 1. sirada oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59771543
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 290,
+            "name": "Lobi detaylarinda \"Temp Data\" icerisinde \"Sunset\" haritasi icin \"Blue\" takimi \"Attacker\" tarafinda oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48733206
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 291,
+            "name": "Lobi detaylarinda \"Temp Data\" icerisinde \"Sunset\" haritasi icin \"Red\" takimi \"Defender\" tarafinda oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46973999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 292,
+            "name": "\"Anladım.\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 136521457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 294,
+            "name": "2 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120373
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 295,
+            "name": "\"Harita seçimi tamamlandı\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56372581
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 296,
+            "name": "Yuklenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1820139040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 297,
+            "name": "Lobi detaylarinda \"Sunset\" haritasinin 1. sirada oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57482331
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 298,
+            "name": "Lobi detaylarinda \"Temp Data\" icerisinde \"Sunset\" haritasi icin \"Blue\" takimi \"Attacker\" tarafinda oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46231500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 299,
+            "name": "Lobi detaylarinda \"Temp Data\" icerisinde \"Sunset\" haritasi icin \"Red\" takimi \"Defender\" tarafinda oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/EncounterSteps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47060000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 300,
+            "name": "\"Anladım.\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 136309873
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 303,
+            "name": "1 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115126
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 304,
+            "name": "\"It’s time to report your results\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116533499583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 305,
+            "name": "\"Report Result\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188910166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 306,
+            "name": "\"REPORT_RESULT_LEFT_SIDE\" alanina \"13\" girilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:189"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 250324666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 307,
+            "name": "\"REPORT_RESULT_RIGHT_SIDE\" alanina \"11\" girilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:189"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 244868375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 308,
+            "name": "\"Report\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 177153832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 309,
+            "name": "\"ENCOUNTER_REPORT_RESULT_BUTTON\" elementinin pasif oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 939180457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 312,
+            "name": "3 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 313,
+            "name": "Sayfayi yenile",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:538"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1457551914
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 314,
+            "name": "Yuklenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2192662499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 315,
+            "name": "\"NAVBAR_NOTIFICATION_BUTTON\" elementine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151238873
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 316,
+            "name": "\"NOTIFICATIONS\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75448330
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 317,
+            "name": "Ilk bildirimde \"Only one team has reported results\" metni goruntuleninceye kadar bekle",
+            "match": {
+              "location": "tests/steps/NotificationSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26959847748
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 318,
+            "name": "\"NOTIFICATION_FIRST_NOTIFICATION\" elementinin uzerine gelinir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:381"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95623664
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 319,
+            "name": "\"NOTIFICATION_FIRST_NOTIFICATION\" elementine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121531998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 320,
+            "name": "Yuklenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1794543999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 321,
+            "name": "\"LOBİ DETAYLARI\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51415123
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 322,
+            "name": "\"Anladım.\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124263455
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 326,
+            "name": "2 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 327,
+            "name": "\"Waiting for admin to resolve the dispute\" textinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:313"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60273374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 328,
+            "name": "\"Report Result\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194103666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 329,
+            "name": "\"REPORT_RESULT_LEFT_SIDE\" alanina \"13\" girilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:189"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238459166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 330,
+            "name": "\"REPORT_RESULT_RIGHT_SIDE\" alanina \"11\" girilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:189"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 244924249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 331,
+            "name": "\"Report\" textine tiklanir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183511206
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 332,
+            "name": "\"ENCOUNTER_LEFT_SIDE_TEAM_SCORE\" elementinin textinin \"1\" oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:317"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 810412166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 333,
+            "name": "\"ENCOUNTER_RIGHT_SIDE_TEAM_SCORE\" elementinin textinin \"0\" oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:317"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16189584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 336,
+            "name": "3 tarayiciya gecis yap",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 337,
+            "name": "\"ENCOUNTER_LEFT_SIDE_TEAM_SCORE\" elementinin textinin \"1\" oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:317"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17278124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 338,
+            "name": "\"ENCOUNTER_RIGHT_SIDE_TEAM_SCORE\" elementinin textinin \"0\" oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:317"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16123081
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 57992208
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@valoSEcreateTournamentAllSmk",
+            "line": 1
+          },
+          {
+            "name": "@smoke1",
+            "line": 154
+          },
+          {
+            "name": "@valoSEcreateTournamentEncounter",
+            "line": 154
+          },
+          {
+            "name": "@parent",
+            "line": 154
+          },
+          {
+            "name": "@child",
+            "line": 154
+          },
+          {
+            "name": "@userCount=3",
+            "line": 154
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "001-web-smk-valorant-se-create-tournament-control;001.7-web-smk-valorant-se-create-tournament-bracket-control",
+        "keyword": "Scenario Outline",
+        "line": 357,
+        "name": "001.7 WEB SMK Valorant SE Create Tournament Bracket Control",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 166772707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 346,
+            "name": "\"login\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1393109916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 347,
+            "name": "\"USER_ACCOUNT_10\" datasını kullanarak giris yapar",
+            "match": {
+              "location": "tests/steps/HomePageSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4295749124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 348,
+            "name": "\"Temp Data\" icerisinden \"tournamentUrl\" sayfasina gidilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 752288957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 349,
+            "name": "\"TOURNAMENT_TAG\" elementinin textinin \"FINISHED\" oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:317"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32890415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 350,
+            "name": "\"TOURNAMENT_PAGE_CONCLUDED_CHECK\" elementi goruntulenene kadar bekle",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:393"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56573458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 351,
+            "name": "\"TOURNAMENT_GOLD_CUP_TEAM_NAME\" elementi uzerinde \"Temp Data\" icerisinden \"bracketTeams.bracket1.teams[0]\" degerinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:449"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43085124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 352,
+            "name": "\"TOURNAMENT_SILVER_CUP_TEAM_NAME\" elementi uzerinde \"Temp Data\" icerisinden \"bracketTeams.bracket1.teams[1]\" degerinin gorunur oldugu kontrol edilir",
+            "match": {
+              "location": "tests/steps/CommonSteps.js:449"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41013125
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16354791
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@valoSEcreateTournamentAllSmk",
+            "line": 1
+          },
+          {
+            "name": "@smoke1",
+            "line": 344
+          },
+          {
+            "name": "@valoSEcreateTournamentBracketControl",
+            "line": 344
+          },
+          {
+            "name": "@parent",
+            "line": 344
+          },
+          {
+            "name": "@child",
+            "line": 344
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "001-web-smk-valorant-se-create-tournament-control",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "001 WEB SMK Valorant SE Create Tournament Control",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@valoSEcreateTournamentAllSmk",
+        "line": 1
+      }
+    ],
+    "uri": "tests/features/Smoke/001-WEB-SMK-ValorantSECreateTournament.feature"
+  }
+]
